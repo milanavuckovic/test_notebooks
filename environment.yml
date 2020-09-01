@@ -2,7 +2,7 @@ channels:
   - conda-forge
 dependencies:
   - metview-batch
-  - Magics =4.4.1
+  - Magics
   - pip
   - pip:
     - metview >=1.4.0
