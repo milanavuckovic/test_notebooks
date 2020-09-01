@@ -2,10 +2,10 @@ channels:
   - conda-forge
 dependencies:
   - metview-batch
-  - Magics
   - pip
   - pip:
     - metview >=1.4.0
+    - Magics
     - scipy
     - matplotlib
     - cdsapi
