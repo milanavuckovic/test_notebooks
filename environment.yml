@@ -1,13 +1,25 @@
 channels:
   - conda-forge
 dependencies:
-  - metview-batch
+  - metview-batch >=5.16.0
   - pip
   - pip:
     - metview >=1.4.0
-    - Magics
     - scipy
+    - cartopy
     - matplotlib
-    - cdsapi
     - xarray
     - pandas
+    - netcdf4
+    - ecmwf-opendata>=0.2.0
+    - ecmwf-data
+    - magpye==0.1.4
+    - ipywidgets
+    - matplotlib
+    - ipympl
+    - jupyter_contrib_nbextensions
+    - jupyterlab
+    - nbmake
+    - pytest
+    - pytest-xdist
+    - ecmwf-api-client
