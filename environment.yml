@@ -2,11 +2,11 @@ channels:
   - conda-forge
 dependencies:
   - metview-batch >=5.16.0
+  - cartopy
   - pip
   - pip:
     - metview >=1.4.0
     - scipy
-    - cartopy
     - matplotlib
     - xarray
     - pandas
