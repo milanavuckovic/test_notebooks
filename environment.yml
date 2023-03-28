@@ -3,6 +3,7 @@ channels:
 dependencies:
   - metview-batch >=5.16.0
   - cartopy
+  - cfgrib
   - pip
   - pip:
     - metview >=1.4.0
